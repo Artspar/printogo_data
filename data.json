@@ -11,7 +11,7 @@
                     coordinates: [59.867922, 30.261116]
                 },
                 options: {
-                    preset: OQpreset,
+                    preset: 'islands#blackStretchyIcon',
                     amount: '1',
                     format: 'a4',
                     cheap: 'no',
@@ -19,13 +19,13 @@
                     fast: 'yes'
                 },
                 properties: {
-                iconContent: OQprice1,
-                balloonContentHeader: OQlink2 + '&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00baff">★&nbsp;4.9</font><br>',
+                iconContent: '12',
+                balloonContentHeader:  '&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00baff">★&nbsp;4.9</font><br>',
                 balloonContentBody: '<img src="https://static.tildacdn.com/tild6438-6165-4166-a436-383863663334/_90.png" height="75" width="150"> <br/> ' +
-            '<strong>За 1 час:</strong>' + '<br/>Ч/б: ' + OQprice11 + '<br/>Цвет: ' + OQprice12 +
-            '<br/><strong>За 1 день:</strong>' + '<br/>Ч/б: ' + OQprice13 + '<br/>Цвет: ' + OQprice14 + '<br/><b>Адрес:</b><br/>Пр-кт Стачек, д.90 (1 этаж)' + 
+            '<strong>За 1 час:</strong>' + '<br/>Ч/б: ' +  + '<br/>Цвет: ' +  +
+            '<br/><strong>За 1 день:</strong>' + '<br/>Ч/б: ' +  + '<br/>Цвет: ' +  + '<br/><b>Адрес:</b><br/>Пр-кт Стачек, д.90 (1 этаж)' + 
             '<br/><b>Часы работы:</b><br/>Пн-Пт 9:00-21:00<br/>Сб-Вс 9:00-21:00',
-                balloonContentFooter: OQlink3
+                balloonContentFooter: 
                 }
             },
             {
